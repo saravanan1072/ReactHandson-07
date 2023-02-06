@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sofia+Sans:wght@200&display=swap');
+
+
+* {
+  margin: 0;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(52, 52, 247);
+  padding: 1rem;
+  font-size: 36px;
+  font-family: 'Roboto Slab', serif;    font-size: 1.5rem;
+}
+
+.main-div1 {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif
+}
+
+.main-div1:hover {
+  color: rgb(246, 149, 246);
+}
+
+
+.main{
+  background-image: linear-gradient(rgb(96, 195, 234),pink, whitesmoke);
+  min-height: 100vh;
+  margin-top: -32px;
+}
+
+
+  
+.tableData-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+  
+.button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 0.5rem 0.9rem;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  /* margin-top: 10px; */
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 7rem;
+  margin-right: 15rem;
+  margin-top: 7rem;
+}
+
+.inputRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  
+}
+
+.buttonContainer .link {
+  margin-left: 1rem;
+  width: 10rem;
+}
+
+.cancel {
+  background-color: rgba(114, 99, 99, 0.921);
+}
+
+.input {
+  width: 25rem;
+}
